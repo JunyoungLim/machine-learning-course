@@ -1,6 +1,7 @@
 # Cornell Data Science Training Program
 ## INFO 1998: An Introduction to Machine Learning for Python
-## Course Website: https://JunyoungLim.github.io/machine-learning-course/
+
+**Course Website: https://JunyoungLim.github.io/machine-learning-course/**
 
 Instructors:
 
