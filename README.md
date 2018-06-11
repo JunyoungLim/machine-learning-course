@@ -1,4 +1,4 @@
-# Cornell Data Science Training Program (JunyoungLim.github.io)
+# Cornell Data Science Training Program
 ## INFO 1998: An Introduction to Machine Learning for Python
 
 Instructors:
@@ -27,5 +27,3 @@ Current Enrollment: 192
 9-Week course from February 14th to April 18th
 
 Every Lecture 5 PM - 6 PM on Wednesday, Gates Hall G01
-
-# machine-learning-course
