@@ -11,8 +11,13 @@ class TableList extends Component {
         <Grid fluid>
           <h2>Getting Started</h2>
           <hr />
-          Coming soon..
-          
+          <p>
+          To work on the assignments and project, you will need to have a proper setup for development environment.
+          If you do not already have Python3 and Jupyter Notebook installed, you will need to configure conda environment.
+          Think of Jupyter Notebook as a playground where we can write codes, instantly print out outputs,
+          embed images and markdowns, and easily share across. The following guide will help you install and setup your
+          environment properly.
+          </p>
         </Grid>
       </div>
     );
