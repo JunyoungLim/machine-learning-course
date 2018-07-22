@@ -15,12 +15,17 @@ class TableList extends Component {
           embed images and markdowns, and easily share across. The following guide will help you install and setup your
           environment properly.
           </p>
-          <h4 className="cds-paragraph-header">Which version of Python do I need?</h4>
           <hr />
+          <h4 className="cds-paragraph-header">Which version of Python do I need?</h4>
           <p>
           Both Python2 and Python3 work well with Jupyter Notebook and Machine Learning libraries, but it this course,
           we will use <b>Python3</b>.
           more guide here.
+          </p>
+          <hr />
+          <h4 className="cds-paragraph-header">More Installation Guide coming soon...</h4>
+          <p>
+          We are currently updating our course program, and we are updating setup guide accordingly. The field will be updated soon.
           </p>
         </Grid>
       </div>
