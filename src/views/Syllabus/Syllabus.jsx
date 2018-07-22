@@ -75,12 +75,37 @@ class TableList extends Component {
           <h4 className="cds-paragraph-header">Class material</h4>
           <p>
             Class material will be posted on our course website, including the assignments, lecture slides, notes, and demos.<br/>
-            Assignments / project submissions will be done through CMS.
+            We will use CMS for assignments / project submissions and feedbacks.
           </p>
           <hr />
           <h4 className="cds-paragraph-header">Course work</h4>
+          <h5><b>In-class assignments</b></h5>
           <p>
-            Here.
+            There will be one in-class assignment per lecture, <b>10 total</b> throughout the semester. All assignments will be done individually.
+            The assignment will be released at the beginning of the lecture (5pm EST on Wednesday), and will be due <b>5pm EST on Friday</b> through CMS.
+            Each assignment is of reasonable length that you will be able to finish it by end of each lecture, but never force yourself to finish it quickly,
+            and don't let it to disturb you from lecture!
+          </p>
+          <h5><b>Feedback and Grade Postings</b></h5>
+          <p>
+            We will be providing you with feedback on the Cornell University Course Management System (<a href="https://cmsx.cs.cornell.edu/">CMS</a>).
+            We will grade your work as soon as reasonably possible, latest by Sunday midnight.
+          </p>
+          <h5><b>Grading</b></h5>
+          <p>
+            There are three components to grading:
+            <ul>
+              <li>
+                <b>Attendance</b>: Out of 10 lectures, you should attend at least 7 to pass. Attendance will be accounted through in-class assignment submissions.
+              </li>
+              <li>
+                <b>Assignments</b>: Out of 10 in-class assignments, you should submit and get a passing grade on at least 7. Each assignment will be graded based on completion with sufficient amount of effort.
+              </li>
+              <li>
+                <b>Project</b>: There will be an open-ended final project near the end of the semester as part of CDS Hackathon. You will need to choose your own competition / research topic and form a group to work together.
+                Project will be graded based on completion with sufficient amount of effort, and the top teams will receive prize.
+              </li>
+            </ul>
           </p>
           <hr />
           <h4 className="cds-paragraph-header">Course policies</h4>
