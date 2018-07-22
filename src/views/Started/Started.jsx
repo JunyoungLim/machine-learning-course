@@ -15,29 +15,12 @@ class TableList extends Component {
           embed images and markdowns, and easily share across. The following guide will help you install and setup your
           environment properly.
           </p>
-          <h3>Which version of Python do I need?</h3>
+          <h4 className="cds-paragraph-header">Which version of Python do I need?</h4>
           <hr />
           <p>
           Both Python2 and Python3 work well with Jupyter Notebook and Machine Learning libraries, but it this course,
           we will use <b>Python3</b>.
-          <ul>
-          <li>
-            If you are running Windows on your computer / tablet, [].
-          </li>
-          <li>
-            If you are running Mac OSX, you should run 
-          </li>
-          <li>
-          - **No**, "Bash for Windows" is not sufficient (yet).
-          - **No**, Cygwin and MinGW are not sufficient (and never will be).
-          - If you are running Mac OSX, the answer is **not necessarily**.  Mac OSX _is_ a
-            Unix-based operating system.  Though I encourage you to configure one so you can
-            play with Linux.
-          - If you are running some form of Linux already, then the answer is **no**.
-          - If you have a VM from another course and want to use that, go for it.  But my VMs have
-            been tailored to try and give you a more full Linux experience ;)
-          </li>
-          </ul>
+          more guide here.
           </p>
         </Grid>
       </div>

@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Table } from "react-bootstrap";
-
-import Card from "components/Card/Card.jsx";
-import { thArray, tdArray } from "variables/Variables.jsx";
+import { Grid } from "react-bootstrap";
 
 class TableList extends Component {
   render() {
@@ -11,7 +8,41 @@ class TableList extends Component {
         <Grid fluid>
           <h2>Syllabus</h2>
           <hr />
-          Coming soon..
+          <h4 className="cds-paragraph-header">Lecture and section information</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
+          <h4 className="cds-paragraph-header">Staff and office hours</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
+          <h4 className="cds-paragraph-header">Catelog description</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
+          <h4 className="cds-paragraph-header">Course technologies</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
+          <h4 className="cds-paragraph-header">Class material</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
+          <h4 className="cds-paragraph-header">Course work</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
+          <h4 className="cds-paragraph-header">Course policies</h4>
+          <hr />
+          <p>
+            Here.
+          </p>
           
         </Grid>
       </div>

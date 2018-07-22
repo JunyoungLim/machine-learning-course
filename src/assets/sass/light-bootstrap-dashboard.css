@@ -130,9 +130,9 @@ body,
   background-color: white; }
 
 a {
-  color: #5c98f9; }
+  color: #407bda; }
   a:hover, a:focus {
-    color: #144fad;
+    color: #1f4480;
     text-decoration: none; }
 
 a:focus, a:active,
@@ -202,6 +202,10 @@ input:focus {
 /* Add a hover effect (blue shadow) */
 .slide-image:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); }
+
+.cds-paragraph-header {
+  color: #407bda;
+  font-weight: normal; }
 
 .sidebar {
   position: fixed;
@@ -1780,7 +1784,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   .card .content {
     padding: 15px 15px 10px 15px; }
   .card .header {
-    padding: 15px 15px 0; }
+    padding: 15px 0px 0; }
   .card .category,
   .card label {
     font-size: 14px;
@@ -1796,7 +1800,7 @@ body > .navbar-collapse[data-color="purple"]:after {
     text-transform: uppercase; }
   .card .title {
     margin: 0;
-    color: #333333;
+    color: #407bda;
     font-weight: 300; }
   .card .avatar {
     width: 30px;

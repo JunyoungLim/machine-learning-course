@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Row, Col, Table } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 import Card from "components/Card/Card.jsx";
 import { thArray, thArrayPrev } from "variables/Variables.jsx";
@@ -203,7 +202,7 @@ class TableList extends Component {
                       <td>05/10/17</td>
                       <td><a href="resources/slides/SP17/Lecture 11_ Big Data Tools.pdf">Lecture 11: Big Data Tools</a></td>
                       <td><a href="https://drive.google.com/file/d/0B1O0cH8Ce3vfT1BqTVRORGlxUFU/view?usp=sharing">Lecture 11: Big Data Tools</a></td>
-                      <td><a href="#">No notes!</a></td>
+                      <td><a href=".">No notes!</a></td>
                       <td><a href="resources/assignments/Project2.pdf">Project 2</a></td>
                     </tr>
                     </tbody>
