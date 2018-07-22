@@ -12,7 +12,7 @@ import "./assets/css/demo.css";
 import "./assets/css/pe-icon-7-stroke.css";
 
 ReactDOM.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <div>
       {indexRoutes.map((prop, key) => {
           return <Route to={prop.path} component={prop.component} key={key} />;
