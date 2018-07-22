@@ -903,9 +903,8 @@ body > .navbar-collapse[data-color="purple"]:after {
 .alert {
   border: 0;
   border-radius: 0;
-  color: #FFFFFF;
   padding: 10px 15px;
-  font-size: 14px; }
+  font-size: 16px; }
   .container .alert {
     border-radius: 4px; }
   .navbar .alert {
@@ -957,18 +956,6 @@ body > .navbar-collapse[data-color="purple"]:after {
     text-decoration: underline;
     color: white; }
 
-.alert-info {
-  background-color: #63d8f1; }
-
-.alert-success {
-  background-color: #a1e82c; }
-
-.alert-warning {
-  background-color: #ffbc67; }
-
-.alert-danger {
-  background-color: #fc727a; }
-
 .table .radio,
 .table .checkbox {
   position: relative;
@@ -997,7 +984,6 @@ body > .navbar-collapse[data-color="purple"]:after {
 .table > thead > tr > th {
   border-bottom-width: 1px;
   font-size: 12px;
-  text-transform: uppercase;
   color: #9A9A9A;
   font-weight: 400;
   padding-bottom: 5px; }

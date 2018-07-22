@@ -23,6 +23,7 @@
     "react-scripts": "1.1.4",
     "react-syntax-highlighter": "8.0.1",
     "react-table": "6.8.6",
+    "react-calendar": "2.16.1",
     "webpack": "3.11.0"
   },
   "scripts": {
