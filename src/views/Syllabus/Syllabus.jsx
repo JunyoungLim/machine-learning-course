@@ -75,7 +75,7 @@ class TableList extends Component {
           <h4 className="cds-paragraph-header">Class material</h4>
           <p>
             Class material will be posted on our course website, including the assignments, lecture slides, notes, and demos.<br/>
-            We will use CMS for assignments / project submissions and feedbacks.
+            We will use CMS for assignment / project submissions and feedbacks.
           </p>
           <hr />
           <h4 className="cds-paragraph-header">Course work</h4>
