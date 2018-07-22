@@ -23,16 +23,10 @@ const dashboardRoutes = [
     component: Syllabus
   },
   {
-    path: "/main",
+    path: "/",
     name: "Main",
     icon: "pe-7s-science",
     component: Main
-  },
-  {
-    redirect: true,
-    path: "/",
-    to: "/main",
-    name: "main"
   }
 ];
 

@@ -8,9 +8,11 @@ class HeaderLinks extends Component {
       <div>
         <Navbar collapseOnSelect>
           <Navbar.Header>
+            <a href=".">
             <Navbar.Brand>
               <img src="cds-logo.png" alt="CDS Edu Logo" />
             </Navbar.Brand>
+            </a>
             <Navbar.Brand>
             <a href=".">CDS Education</a>
             </Navbar.Brand>

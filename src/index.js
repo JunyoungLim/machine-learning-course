@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import indexRoutes from "routes/index.jsx";
 
@@ -12,12 +12,12 @@ import "./assets/css/demo.css";
 import "./assets/css/pe-icon-7-stroke.css";
 
 ReactDOM.render(
-  <HashRouter>
-    <Switch>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <div>
       {indexRoutes.map((prop, key) => {
-        return <Route to={prop.path} component={prop.component} key={key} />;
-      })}
-    </Switch>
-  </HashRouter>,
+          return <Route to={prop.path} component={prop.component} key={key} />;
+        })}
+    </div>
+  </BrowserRouter>,
   document.getElementById("root")
 );
