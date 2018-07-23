@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, NavItem, Nav, NavDropdown, MenuItem } from "react-bootstrap";
-import FadeIn from "react-fade-in";
 
 class HeaderLinks extends Component {
   render() {
     return (
-      <FadeIn transitionDuration="500">
+      <div>
         <Navbar inverse collapseOnSelect fixedTop={true}>
           <Navbar.Header>
             <a href=".">
@@ -58,7 +57,7 @@ class HeaderLinks extends Component {
             </Nav>
           </Navbar.Collapse>
             </Navbar>
-      </FadeIn>
+      </div>
     );
   }
 }
