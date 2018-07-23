@@ -28,8 +28,8 @@ The topics covered will include, but not be limited to:
 
 Data Manipulation, Data Visualization, Supervised Machine Learning, Unsupervised Machine Learning, Ensemble Learning
 
-Current Enrollment: 192
+Spring 2018 Enrollment: 192
 
-9-Week course from February 14th to April 18th
+10-Week course from September to November
 
 Every Lecture 5 PM - 6 PM on Wednesday, Gates Hall G01
