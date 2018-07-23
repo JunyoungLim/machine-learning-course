@@ -16,7 +16,7 @@
         margin: $navbar-margin-brand;
         padding: $navbar-padding-brand;
         font-size: $font-size-large-navbar;
-        color: $black-hr;
+        color: $light-gray;
     }
     .navbar-nav{
          > li > a {
@@ -60,9 +60,6 @@
     }
     .btn-simple{
         font-size: $font-size-medium;
-    }
-    .caret{
-       // @include center-item();
     }
     
     &.fixed{
@@ -291,4 +288,13 @@
     }
 }
 
+.nav-link {
+    color: $cds-color;
 
+    &:focus {
+        color: $cds-color;
+    }
+    &:hover {
+        color: $light-cds-color;
+    }
+}

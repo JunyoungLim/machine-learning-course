@@ -1347,7 +1347,7 @@ body > .navbar-collapse[data-color="purple"]:after {
     margin: 5px 0px;
     padding: 15px 15px;
     font-size: 20px;
-    color: #444444; }
+    color: #E3E3E3; }
   .navbar .navbar-nav > li > a {
     padding: 10px 15px;
     margin: 10px 3px;
@@ -1573,6 +1573,13 @@ body > .navbar-collapse[data-color="purple"]:after {
   .navbar-toggle.navbar-default .navbar-toggle:hover,
   .navbar-toggle.navbar-default .navbar-toggle:focus {
     background-color: transparent; }
+
+.nav-link {
+  color: #407bda; }
+  .nav-link:focus {
+    color: #407bda; }
+  .nav-link:hover {
+    color: #629eff; }
 
 .footer {
   background-color: #FFFFFF;

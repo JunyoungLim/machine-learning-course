@@ -6,7 +6,7 @@ class HeaderLinks extends Component {
   render() {
     return (
       <div>
-        <Navbar collapseOnSelect>
+        <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <a href=".">
             <Navbar.Brand>
