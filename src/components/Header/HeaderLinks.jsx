@@ -11,7 +11,7 @@ class HeaderLinks extends Component {
           <Navbar.Header>
             <a href=".">
             <Navbar.Brand>
-              <img src="cds-logo.png" alt="CDS Edu Logo" />
+              <img src="../cds-logo.png" alt="CDS Edu Logo" />
             </Navbar.Brand>
             </a>
             <Navbar.Brand>

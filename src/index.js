@@ -12,10 +12,10 @@ import "./assets/css/demo.css";
 import "./assets/css/pe-icon-7-stroke.css";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={"machine-learning-course"}>
     <div>
       {indexRoutes.map((prop, key) => {
-        return <Route path={process.env.PUBLIC_URL + prop.path} component={prop.component} key={key} />;
+        return <Route path={prop.path} component={prop.component} key={key} />;
       })}
     </div>
   </BrowserRouter>,
