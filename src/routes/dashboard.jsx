@@ -7,25 +7,21 @@ const dashboardRoutes = [
   {
     path: "/started",
     name: "Getting Started",
-    icon: "pe-7s-user",
     component: Started
   },
   {
     path: "/schedule",
     name: "Schedule",
-    icon: "pe-7s-note2",
     component: Schedule
   },
   {
     path: "/syllabus",
     name: "Syllabus",
-    icon: "pe-7s-note2",
     component: Syllabus
   },
   {
     path: "/",
     name: "Main",
-    icon: "pe-7s-science",
     component: Main
   }
 ];

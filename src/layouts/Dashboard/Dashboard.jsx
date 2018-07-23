@@ -26,7 +26,7 @@ class Dashboard extends Component {
     return (
       <div className="wrapper">
         <div id="main-panel" className="main-panel" ref="mainPanel">
-          <Header {...this.props} />
+          <Header />
           <Switch>
             {dashboardRoutes.map((prop, key) => {
               if (prop.name === "Notifications")
