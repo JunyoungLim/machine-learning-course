@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Navbar, NavItem, Nav, NavDropdown, MenuItem } from "react-bootstrap";
 import FadeIn from "react-fade-in";
 
@@ -23,28 +23,28 @@ class HeaderLinks extends Component {
             <Navbar.Collapse>
               <Nav>
                 <NavItem>
-                  <Link
+                  <NavLink
                     to="/started"
                     className="nav-link"
                     activeClassName="active">
                     Getting Started
-                  </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <Link
+                  <NavLink
                     to="/schedule"
                     className="nav-link"
                     activeClassName="active">
                     Schedule
-                  </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <Link
+                  <NavLink
                     to="/syllabus"
                     className="nav-link"
                     activeClassName="active">
                     Syllabus
-                  </Link>
+                  </NavLink>
                 </NavItem>
                 <NavDropdown eventKey={3} title="Resources" id="basic-nav-dropdown">
                   <MenuItem eventKey={3.1} href="/tutorial">Tutorial</MenuItem>
