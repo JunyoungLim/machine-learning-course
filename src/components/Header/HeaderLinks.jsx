@@ -47,7 +47,7 @@ class HeaderLinks extends Component {
                   </NavLink>
                 </NavItem>
                 <NavDropdown eventKey={3} title="Resources" id="basic-nav-dropdown">
-                  <MenuItem eventKey={3.1}><NavLink to="/tutorial" activeClassName="active">Tutorial</NavLink></MenuItem>
+                  <MenuItem eventKey={3.1} href="#/tutorial">Tutorial</MenuItem>
                   <MenuItem eventKey={3.2} href="https://cmsx.cs.cornell.edu/" target="_blank" rel="noopener noreferrer">CMS</MenuItem>
                   <MenuItem eventKey={3.3} href="https://piazza.com/" target="_blank" rel="noopener noreferrer">Piazza</MenuItem>
                 </NavDropdown>
