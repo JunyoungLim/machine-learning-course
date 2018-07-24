@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { BrowserRouter, HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import indexRoutes from "routes/index.jsx";
 
