@@ -524,6 +524,19 @@ body > .navbar-collapse[data-color="purple"]:after {
   .btn.btn-icon {
     padding: 8px; }
 
+.btn-main {
+  font-size: 17px;
+  font-weight: 700;
+  border-color: #222222;
+  color: #222222;
+  margin-right: 10px; }
+  .btn-main:active, .btn-main:focus {
+    border-color: #222222;
+    color: #222222; }
+  .btn-main:hover {
+    border-color: #407bda;
+    color: #407bda; }
+
 .btn-primary {
   border-color: #3472F7;
   color: #3472F7; }

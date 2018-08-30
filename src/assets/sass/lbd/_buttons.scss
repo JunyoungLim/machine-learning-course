@@ -26,6 +26,25 @@
     
 }
 
+.btn-main {
+    font-size: 17px;
+    font-weight: 700;
+    border-color: #222222;
+    color: #222222;
+    margin-right: 10px;
+
+    &:active,
+    &:focus {
+        border-color: #222222;
+        color: #222222;
+    }
+
+    &:hover {
+        border-color: $cds-bg;
+        color: $cds-bg;
+    }
+}
+
 // Apply the mixin to the buttons
 //.btn-default { @include btn-styles($default-color, $default-states-color); }
 .btn-primary { @include btn-styles($primary-color, $primary-states-color); }

@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Jumbotron } from "react-bootstrap";
+import { Grid, Row, Col, Jumbotron, Button } from "react-bootstrap";
+
+import { bootstrapUtils } from "react-bootstrap/lib/utils";
 
 class Main extends Component {
   render() {
+    bootstrapUtils.addStyle(Button, "main");
+
     return (
         <div className="content">
             <Grid fluid>
@@ -15,10 +19,10 @@ class Main extends Component {
                         <Col sm={6} lg={6}>
                             <p>
                                 Location: Gates G01<br/>
-                                Lecture: Wed 5:00pm - 6:00pm<br/>
+                                Lecture: Wed 5:30pm - 6:30pm<br/>
                                 Course material: GitHub<br/>
-                                Discussion: <a href="https://piazza.com/" target="_blank" rel="noopener noreferrer">Piazza</a><br/>
-                                Grades: <a href="https://piazza.com/" target="_blank" rel="noopener noreferrer">CMS</a>
+                                Discussion: <a href="https://piazza.com/cornell/fall2018/info1998" target="_blank" rel="noopener noreferrer">Piazza</a><br/>
+                                Grades: <a href="https://cmsx.cs.cornell.edu/" target="_blank" rel="noopener noreferrer">CMS</a>
                             </p>
                         </Col>
                         <Col sm={6} lg={6}>
@@ -37,21 +41,25 @@ class Main extends Component {
                             </p>
                         </Col>
                     </Row>
+                    <Row>
+                    </Row>
                 </Grid>
+                <a href="https://goo.gl/forms/TI5fJwWVUPmo8Ych1" target="_blank" rel="noopener noreferrer"><Button bsStyle="main">Enroll in the Course</Button></a>
+                <a href="https://piazza.com/cornell/fall2018/info1998" target="_blank" rel="noopener noreferrer"><Button bsStyle="main">Self-Enroll in the Piazza</Button></a>
             </Jumbotron>
             <div>
                 <h2>Overview</h2>
                 <p>
-                INFO 1998 is a ten week, one credit, S/U only course. It runs from [placeholder] through [placeholder], 2018.
+                INFO 1998 is a ten week, one credit, S/U only course. It runs from <b>September 11th</b> through <b>November 28th</b>, 2018.
                 <br/><br/>
                 There are two important dates where the registrar is concerned:
                 <br/>
                 <ul>
                     <li>
-                    Last day to add: [placeholder], 2018
+                    Last day to add:<b>October 3rd</b>, 2018
                     </li>
                     <li>
-                    Last day to drop: [placeholder], 2018
+                    Last day to drop: <b>October 17th</b>, 2018
                     </li>
                 </ul>
                 <br/>
