@@ -19,10 +19,10 @@ class TableList extends Component {
           <h4 className="cds-paragraph-header">Staff and office hours</h4>
           <p>
           <span style={{fontSize:"18px"}}>Lecturer: Abby Beeler</span>
-          <li>Thursday: 6:00pm - 7:00pm, Gates G11</li>
+          <li>Wednesday: 8:00pm - 9:00pm, Gates G11</li>
           <br/>
           <span style={{fontSize:"18px"}}>Lecturer: Ethan Cohen</span>
-          <li>Thursday: 6:00pm - 7:00pm, Gates G11</li>
+          <li>Wednesday: 8:00pm - 9:00pm, Gates G11</li>
           <br/>
           <Alert bsStyle="warning">
           <strong>Notice!</strong> Please don't e-mail any of the TAs directly, unless necessary.
@@ -30,16 +30,16 @@ class TableList extends Component {
           If there is something urgent going on, we recommend emailing the course manager.
           </Alert>
           <span style={{fontSize:"18px"}}>TA: Ann Zhang</span>
-          <li>Thursday: 6:00pm - 7:00pm, Gates G11</li>
+          <li>Thursday: 7:00pm - 8:00pm, Rhodes 402</li>
           <br/>
           <span style={{fontSize:"18px"}}>TA: Dylan Tsai</span>
-          <li>Thursday: 6:00pm - 7:00pm, Gates G11</li>
+          <li>Thursday: 7:00pm - 8:00pm, Rhodes 402</li>
           <br/>
           <span style={{fontSize:"18px"}}>TA: Shubhom Bhattacharya</span>
-          <li>Thursday: 6:00pm - 7:00pm, Gates G11</li>
+          <li>Friday: 2:00pm - 3:00pm, Gates G15</li>
           <br/>
           <span style={{fontSize:"18px"}}>TA: Tanmay Bansal</span>
-          <li>Thursday: 6:00pm - 7:00pm, Gates G11</li>
+          <li>Friday: 2:00pm - 3:00pm, Gates G15</li>
           <br/>
           </p>
           <hr />

@@ -18,16 +18,15 @@ class Main extends Component {
                     <Row className="show-grid">
                         <Col sm={6} lg={6}>
                             <p>
+                                Course Manager: <a href="mailto:jl3248@cornell.edu">Jared Junyoung Lim</a><br/>
                                 Location: Gates G01<br/>
                                 Lecture: Wed 5:30pm - 6:30pm<br/>
-                                Course material: GitHub<br/>
                                 Discussion: <a href="https://piazza.com/cornell/fall2018/info1998" target="_blank" rel="noopener noreferrer">Piazza</a><br/>
                                 Grades: <a href="https://cmsx.cs.cornell.edu/" target="_blank" rel="noopener noreferrer">CMS</a>
                             </p>
                         </Col>
                         <Col sm={6} lg={6}>
                             <p>
-                            Course Manager: <a href="mailto:jl3248@cornell.edu">Jared Junyoung Lim</a><br/>
                             Lecturers: <a href="mailto:arb379@cornell.edu">Abby Beeler</a>, <a href="mailto:ebc63@cornell.edu">Ethan Cohen</a><br/>
                             Office Hours:<br/>
                             <ul>
