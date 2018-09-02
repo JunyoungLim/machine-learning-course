@@ -32,10 +32,13 @@ class Main extends Component {
                             Office Hours:<br/>
                             <ul>
                                 <li>
-                                Thursday: 6:00pm - 7:00pm, Gates G11
+                                Wednesday: 8:00pm - 9:00pm, Gates G11
                                 </li>
                                 <li>
-                                Friday: 2:00pm - 3:00pm, Gates G19
+                                Thursday: 7:00pm - 8:00pm, Rhodes 402
+                                </li>
+                                <li>
+                                Friday: 2:00pm - 3:00pm, Gates G15
                                 </li>
                             </ul>
                             </p>
