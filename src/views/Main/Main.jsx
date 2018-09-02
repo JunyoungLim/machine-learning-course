@@ -44,7 +44,7 @@ class Main extends Component {
                     <Row>
                     </Row>
                 </Grid>
-                <a href="https://goo.gl/forms/TI5fJwWVUPmo8Ych1" target="_blank" rel="noopener noreferrer"><Button bsStyle="main">Enroll in the Course</Button></a>
+                <a href="https://goo.gl/forms/v5HPdYxL8vN1BLCq1" target="_blank" rel="noopener noreferrer"><Button bsStyle="main">Enroll in the Course</Button></a>
                 <a href="https://piazza.com/cornell/fall2018/info1998" target="_blank" rel="noopener noreferrer"><Button bsStyle="main">Self-Enroll in the Piazza</Button></a>
             </Jumbotron>
             <div>
