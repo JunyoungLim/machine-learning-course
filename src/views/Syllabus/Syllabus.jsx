@@ -12,7 +12,7 @@ class TableList extends Component {
           <h4 className="cds-paragraph-header">Lecture and section information</h4>
           <p>
             INFO 1998, Fall 2018<br/>
-            Lecture time: Wed 5:00pm - 6:00pm<br/>
+            Lecture time: Wed 5:30pm - 6:30pm<br/>
             Location location: Gates G01<br/>
           </p>
           <hr />
@@ -22,7 +22,7 @@ class TableList extends Component {
           <li>Wednesday: 8:00pm - 9:00pm, Gates G11</li>
           <br/>
           <span style={{fontSize:"18px"}}>Lecturer: Ethan Cohen</span>
-          <li>Wednesday: 8:00pm - 9:00pm, Gates G11</li>
+          <li>Thursday: 7:00pm - 8:00pm, Rhodes 402</li>
           <br/>
           <Alert bsStyle="warning">
           <strong>Notice!</strong> Please don't e-mail any of the TAs directly, unless necessary.
@@ -33,7 +33,7 @@ class TableList extends Component {
           <li>Thursday: 7:00pm - 8:00pm, Rhodes 402</li>
           <br/>
           <span style={{fontSize:"18px"}}>TA: Dylan Tsai</span>
-          <li>Thursday: 7:00pm - 8:00pm, Rhodes 402</li>
+          <li>Wednesday: 8:00pm - 9:00pm, Gates G11</li>
           <br/>
           <span style={{fontSize:"18px"}}>TA: Shubhom Bhattacharya</span>
           <li>Friday: 2:00pm - 3:00pm, Gates G15</li>
