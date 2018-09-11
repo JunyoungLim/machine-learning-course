@@ -52,7 +52,7 @@ class Main extends Component {
             <div>
                 <h2>Overview</h2>
                 <p>
-                INFO 1998 is a ten week, one credit, S/U only course. It runs from <b>September 11th</b> through <b>November 28th</b>, 2018.
+                INFO 1998 is a ten week, one credit, S/U only course. It runs from <b>September 19th</b> through <b>November 28th</b>, 2018.
                 <br/><br/>
                 There are two important dates where the registrar is concerned:
                 <br/>
