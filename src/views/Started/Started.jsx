@@ -18,9 +18,8 @@ class TableList extends Component {
           <hr />
           <h4 className="cds-paragraph-header">Which version of Python do I need?</h4>
           <p>
-          Both Python2 and Python3 work well with Jupyter Notebook and Machine Learning libraries, but it this course,
-          we will use <b>Python3</b>.
-          more guide here.
+          Both Python2 and Python3 work well with Jupyter Notebook and Machine Learning libraries, but for this course,
+          we will use <b>Python3</b>. Any version of Python above 3.5.x will work with the course. You can verify the 
           </p>
           <hr />
           <h4 className="cds-paragraph-header">More Installation Guide coming soon...</h4>
